@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Sacramento&family=Spectral:wght@300&display=swap');
 *{
     box-sizing: border-box
 }
@@ -16,9 +16,11 @@ body{
     opacity: 0.8;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    
  }
 .logo{
-    flex: 20%;
+    /*flex: 20%; (maybe it will change)*/
     margin-left: 10%;
     /*border: 1px solid red*/
     color: azure;
@@ -45,31 +47,139 @@ body{
     border-top: 4px solid rgb(33, 221, 221)
 }
 .apresentation {
-    
-}
-#topic {
-    
-}
-.sub {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-flow: row wrap;
 
+}
+.headline {
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    flex: 40%;
+    background-color: black;
+    opacity: 80%;
+}
+.headline h2{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    font-family: 'Spectral', serif;
+}
+#top{
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    font-family: 'Spectral', serif;
+}
+#bot{
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 16px;
+    color: white;
+    font-family: 'Spectral', serif;
+}
+.img-headline{
+    text-align: center;
+    flex: 30%;
+    margin-right: 20%;
+    background-size: cover;
+    background-color: black;
+    /*border: 1px solid blue*/
 }
 .b1 {
-    
-    
+    display: inline flex;
+    margin-top: 60px;
+    margin-left: 150px;
+    background-color: transparent;
+    color: azure;
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 .b1:hover {
-   
-   
+    display: inline flex;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 2s;
+    transform: scale3d(1.2); 
 }
-/*edit the 4 images to stay in the middle of the page with the subtext*/
-
+section {
+    display: inline-block;
+    margin-top: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+    width: 90%;
+    background-color: black;
+    opacity: 80%;
+}
+section h2{
+    width: 100%;
+    font-size: 40px;
+    margin: 0;
+    font-family: 'Lora', serif;
+    color: azure;
+    text-align: center;
+}
+.things {
+    display: inline-flex;
+    margin-top: 5%;
+}
+.card {
+    text-align: center;
+    display: inline-block;
+    width: 45%;
+    padding: 10px;
+    background-color: rgb(26, 25, 25);
+}
+.card:hover {
+    text-align: center;
+    display: inline-block;
+    width: 45%;
+    padding: 20px;
+    background-color: rgb(26, 25, 25);
+    opacity: 40%;
+    transition: 2s;
+}
 .b2{
-
+    text-align: right;
+    background-color: rgb(41, 17, 51);
+    color: azure;
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
 }
 .b2:hover{
+    background-color: white;
+    color: black;
+    transition: 2s;
 
 }
-
 footer {
-
+    margin-top: 100px;
+    height: 100px;
+    background-image: linear-gradient(180deg,#180F4A,#090422, black);
+    text-align: center;
+    border-top: 5px black;
+}
+h6 {
+    color: azure;
 }
