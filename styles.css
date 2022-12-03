@@ -1,7 +1,75 @@
-h1 {
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+*{
+    box-sizing: border-box
+}
+
+body{
+    margin: 0;
+    background-image: url(Imgs/entrada.jpg);
+    background-size: cover
+}
+ .navbar{
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: black;
+    opacity: 0.8;
+    justify-content: center;
+    align-items: center;
+ }
+.logo{
+    flex: 20%;
+    margin-left: 10%;
+    /*border: 1px solid red*/
+    color: azure;
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+.menu{
+    flex: 70%;
+    /*border: 3px solid green*/
+    text-align: right;
+    padding: 20px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 16px;
+}
+.menu a:hover{
+    color: azure;
+    background-color: lightblue;
+    border-top: 4px solid rgb(33, 221, 221)
+}
+.apresentation {
+    
+}
+#topic {
+    
+}
+.sub {
+
+}
+.b1 {
+    
+    
+}
+.b1:hover {
+   
+   
+}
+/*edit the 4 images to stay in the middle of the page with the subtext*/
+
+.b2{
+
+}
+.b2:hover{
 
 }
 
-.header-link {
-text-align: right;
+footer {
+
 }
